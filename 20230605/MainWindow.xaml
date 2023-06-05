@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:_20230605"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Height="NaN" Margin="0,0,10,24" Width="NaN">
         <Button x:Name="btnOpen" Content="開啟檔案" HorizontalAlignment="Left" Margin="57,31,0,0" VerticalAlignment="Top" Height="59" Width="102" RenderTransformOrigin="-0.142,0.038" Click="Button_Click"/>
-        <Button x:Name="btnSave" Content="存檔" HorizontalAlignment="Left" Margin="205,31,0,0" VerticalAlignment="Top" Height="59" Width="107" RenderTransformOrigin="0.281,-0.063"/>
+        <Button x:Name="btnSave" Content="存檔" HorizontalAlignment="Left" Margin="205,31,0,0" VerticalAlignment="Top" Height="59" Width="107" RenderTransformOrigin="0.281,-0.063" Click="btnSave_Click"/>
         <RichTextBox x:Name="rtbText" Margin="57,100,112,25" Height="NaN" Width="NaN">
             <FlowDocument>
                 <Paragraph>
